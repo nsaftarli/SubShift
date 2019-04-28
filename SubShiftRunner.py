@@ -1,5 +1,5 @@
 import argparse
-import SubFix
+import SubShift
 
 parser = argparse.ArgumentParser(
     description='Utility for quickly fixing time offsets in subtitles')
@@ -26,4 +26,4 @@ delta = args.time
 output_file = args.output
 direction = args.direction
 
-SubFix.main(input_file, delta, output_file, direction)
+SubShift.main(input_file, delta, output_file, direction)
